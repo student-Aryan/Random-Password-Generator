@@ -1,0 +1,74 @@
+body {
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 320px;
+}
+
+.generator input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #000811b4;
+  color: #f8fafc;
+}
+
+button {
+  background: #2563eb;
+  border: none;
+  padding: 10px 20px;
+  margin: 8px 4px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.options,
+.checkboxes {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.options input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background: #334155;
+  color: #f8fafc;
+  margin-left: 8px;
+}
+
+.checkboxes label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
